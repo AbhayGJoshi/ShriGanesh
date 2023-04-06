@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "shriganesh",
+    "slug": "shriganesh",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/sg.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "apk": {
+        "android": {
+          "buildType": "apk"
+        }
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.agj.reatnative",
+      "versionCode" : 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b47db83b-4249-4eef-bf4b-ac4d40b5a0cc"
+      }
+    },
+    "owner": "agj"
+  }
+}
